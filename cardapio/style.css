@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.section {
+width: 600px;
+height: 800px;
+border: 5px solid black;
+border-style: solid;
+}
+
+.h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.p {
+  width: 100%;
+  text-align: center;
+}
+
+.winky-sans {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

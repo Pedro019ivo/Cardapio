@@ -1,0 +1,15 @@
+.credo {
+  border: 5px solid rgb(255, 192, 203);
+}
+.batata {
+  border: 5px dashed rgb(255, 0, 0);
+  width: 180px;
+}
+
+.fundo {
+  background-color: pink;
+}
+
+.fundo2 {
+  background-color: yellow;
+}
