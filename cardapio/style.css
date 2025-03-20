@@ -5,21 +5,37 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
+ 
   align-items: center;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  
 
 
 }
 
 .section {
-width: 600px;
-height: 800px;
-border: 5px solid black;
-border-style: solid;
+  display: flex;
+  width: 600px;
+  height: 800px;
+  border: 5px solid black;
+  border-style: solid;
+  background-image: url("/cardapio/image/prato.jpg");
+  background-size:cover;
+  align-items: center;
+  justify-content: center;
+  
+  
 }
 
 .h1 {
   width: 100%;
   text-align: center;
+ 
+
 }
 
 .h2 {
@@ -37,9 +53,15 @@ border-style: solid;
   text-align: center;
 }
 
-.winky-sans {
+/* .winky-sans {
   font-family: "Winky Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+} */
+
+div {
+  backdrop-filter: blur(15px);
+  width: 100%;
+  
 }
